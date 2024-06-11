@@ -63,7 +63,7 @@ A nix-shell with all packages from packages.nix will be loaded.
 1. enter the project dir with your terminal.
 2. enter dev_env with:
 ```bash
-./dev_env.sh
+./.dev_env/docker/dev_env.sh
 ```
 
 note: nix is required to build the image
