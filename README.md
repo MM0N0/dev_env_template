@@ -23,4 +23,4 @@ copier update -a .dev_env/.copier_answers.yml
 see [README.md](template/.dev_env/README.md).
 
 ## TODO:
--
+- update README.md
