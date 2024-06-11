@@ -1,0 +1,22 @@
+_min_copier_version: "8.1.0"
+
+_subdirectory: template
+_answers_file: .copier_answers.yml
+
+_skip_if_exists:
+  - .dev_env/nix/packages.nix
+  - .dev_env/project.conf
+
+_exclude:
+  - .git
+  - copier.yaml
+
+#################################################
+
+project_name:
+  type: str
+  help: project_name
+
+docker_image_prefix:
+  type: str
+  help: docker_image_prefix
