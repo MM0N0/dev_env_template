@@ -4,6 +4,7 @@ in
 [
   # basic packages for utility
   fixed_pkgs.busybox
+  fixed_pkgs.cacert
   fixed_pkgs.coreutils
   fixed_pkgs.gnumake
   fixed_pkgs.bash
